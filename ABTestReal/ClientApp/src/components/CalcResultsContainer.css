@@ -1,0 +1,14 @@
+.calcresults-container {
+  width: 45%;
+}
+
+.calcresults-container__title {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-weight: 400;
+  color: rgba(60, 90, 168, .4);
+}
+
+.calcresults-container__retention {
+  margin-top: 40px;
+}

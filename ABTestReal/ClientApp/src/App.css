@@ -1,0 +1,25 @@
+.app {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 189px;
+  height: 38px;
+  background-color: rgba(74, 157, 255, 1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  transition: all .2s ease;
+}
+
+.button:hover {
+  background-color: rgba(74, 157, 255, .27);
+}

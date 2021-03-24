@@ -1,0 +1,59 @@
+.chart {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.chart__legend-x {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.chart__legend-y {
+  position: absolute;
+  transform: rotate(-90deg) translateX(50%);
+  top: 50%;
+  left: -80px;
+}
+
+.chart__body {
+  display: flex;
+  width: 100%;
+  height: 90%;
+}
+
+.chart__bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20%;
+  height: 100%;
+}
+
+.chart__lifetime {
+  padding-bottom: 14px;
+  font-weight: 300;
+  color: #5D6D97;
+  text-align: center;
+}
+
+.chart__bar-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.chart__bar {
+  background-color: #ccc;
+  border-bottom: 1px solid #CCC;
+}
+
+.chart__userid {
+  padding-top: 14px;
+  font-weight: 300;
+  color: #5D6D97;
+  text-align: center;
+}

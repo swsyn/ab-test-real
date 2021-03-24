@@ -1,0 +1,46 @@
+.usertable {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.usertable__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.usertable__head {
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 400;
+  color: rgba(60, 90, 168, .4);
+}
+
+.usertable__head-col {
+  padding: 14px;
+}
+
+.usertable__body {
+  box-shadow: 1px 0 5px rgba(93, 109, 151, .1);
+}
+
+.usertable__body-row {
+  border-bottom: 1px solid rgba(93, 109, 151, .4);
+}
+
+.usertable__body-row:last-child {
+  border-bottom: none;
+}
+
+.usertable__body-col {
+  padding: 14px;
+  font-weight: 300;
+  color: #5D6D97;
+}
+
+.usertable__input {
+  width: 100%;
+  font-size: 14px;
+  color: #5D6D97;
+  border: none;
+  outline: none;
+}
